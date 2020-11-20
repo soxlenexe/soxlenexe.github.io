@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1{
+    font-family:'Oswald';
+}
+
+.fontt{
+    font-family:'Oswald';
+}
+
+.fz-header{
+    font-size:35px;
+    font-style: bold;
+    color: white;
+}
+
+.nav, .nav-link{
+    padding: 1vh;
+    min-height: 5vh;
+    font-size: 18px;
+}
+
+.profileimg{
+    margin: auto;
+    max-width:10%;
+    border-radius: 100vh;
+}
+
+.portada{
+    
+    text-align: center;
+    min-height: 55vh;
+    padding: 10%;
+    background-color: rgba(0,0,0,0.5);
+}
