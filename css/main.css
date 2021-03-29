@@ -1,0 +1,37 @@
+
+*{
+    font-family:Roboto;
+}
+
+.tarjeta{
+    -webkit-box-shadow: 0px 2px 47px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 47px -13px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 47px -13px rgba(0,0,0,0.75);
+}
+.header-tar{
+    max-width: 80%; 
+    margin: auto; 
+    margin-top:5%;
+    border-radius: 35px;
+    min-height: 50px;
+    padding:2%;
+}
+.foto{
+    background-image: url('./../img/1.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: auto;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-right: 0px;
+}
+
+@media(max-width:570px){
+    .header-tar{
+        text-align: center;
+    }
+    .foto{
+        margin: auto;
+    }
+}
