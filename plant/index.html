@@ -46,10 +46,10 @@
 		}
 		.img_fond {
 		  position: absolute;
-		  top: -3.5%;
+		  top: 0%;
 		  left: 0;
 		  width: 100%;
-		  height: 300px;
+		  height: 500px;
 		  object-fit: cover;
 		  z-index: 11;
 		  display: block;
@@ -60,7 +60,7 @@
 		.fond_color {
 		  background: linear-gradient(340deg, #141414, #575757);
 		  width: 100%;
-		  height: 200px;
+		  height: 500px;
 		  position: relative;
 		  justify-content: center;
 		  align-items: center;
@@ -111,7 +111,7 @@
 		.perfiltext .img {
 		  position: relative;
 		  width: 200px;
-		  height: 200px;
+		  height: 175px;
 		  /*border-radius: 50%;*/
 		  overflow: hidden;
 		}
@@ -229,22 +229,26 @@
 		  color: #6D7793;
 		  font-size: 16px;
 		}
-		/*
-		.interest ul {
+		.about .interest ul {
 		  display: grid;
-		  grid-template-columns: repeat(4, 1fr);
+		  grid-template-columns: repeat(15, 1fr);
 		}
-		.interest ul li {
+		.about .interest ul li {
 		  list-style: none;
-		  color: #333;
+		  color: #E50915;
 		  font-weight: 500;
 		  margin: 10px 0;
+		  cursor: pointer;
 		}
-		.interest ul li .fa {
-		  color: purple;
-		  font-size: 18px;
-		  width: 20px;
-		}*/
+		.about .interest ul li img {
+			transition: all .4s;
+			width: 2.2em;
+		}
+		.about .interest ul li img:hover {
+		  color: #fff;
+		  filter: drop-shadow(0px 0px 10px #750037);
+		  transition: all .4s;
+		}
 		@media(max-width: 1000px){
 		  .img_fond {
 		    display: none;
@@ -270,9 +274,9 @@
 		    display: block;
 		  }
 		  .fond_color_2 {
-		    background: linear-gradient(70deg, #141414, #E50915);
+		    background: linear-gradient(340deg, #141414, #575757);
 		    width: 100%;
-		    height: 345px;
+		    height: 400px;
 		    position: relative;
 		    justify-content: center;
 		    align-items: center;
@@ -288,6 +292,9 @@
 		    display: flex;
 		    position: relative;
 		    overflow: hidden;
+		  }
+		  .about .interest ul li img {
+			margin: 5px;
 		  }
 		}
 		@media (max-width: 600px) {
@@ -344,10 +351,17 @@
 					<div class="box">
 					</div>
 					<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+					<div class="interest">
+						<ul>
+							<li>
+								<img src="svg/heart.svg">
+							</li>
+							<li>
+								<img src="svg/heart_complete.svg">
+							</li>
+						</ul>
+					</div>
 				</div>
-				
-
-
 			</div>
 		</section>
 	</div>
